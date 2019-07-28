@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image Gallery</title>
+    <style>
+        a:link{
+            color: lightblue;
+        }
+        a:visited{
+            color: tomato;
+        }
+        a:hover{
+            color: blue;
+        }
+        a:active{
+            color: lightgreen;
+        }
+        ul{
+            padding: 0;
+            overflow: hidden;
+        }
+        li{
+            list-style: none;
+            float: left;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>animals</h1>
+    <ul id="animalsList">
+        <li><a href="./images/dog.jpg" title="a dog">dog</a></li>
+        <li><a href="./images/fox.jpg" title="a fox">fox</a></li>
+        <li><a href="./images/lion.jpg" title="a lion">lion</a></li>
+        <li><a href="./images/pigeon.jpg" title="a pigeon">pigeon</a></li>
+        <li><a href="./images/zebra.jpg" title="a zebra">zebra</a></li>
+    </ul>
+    <img src="./images/placeholder.jpg" alt="animals" id="placeholder">
+    <p id="description">aniamls shows</p>
+    <script src="./scripts/showPic.js"></script>
+</body>
+</html>
